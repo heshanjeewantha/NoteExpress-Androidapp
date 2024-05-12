@@ -11,7 +11,7 @@ import kotlinx.parcelize.Parcelize
 data class Note (
     @PrimaryKey(autoGenerate = true)
     val id:Int=0,
-    val noteTitle:String,
+    val noteTitle:String, //title
     val noteDesc:String
 ):Parcelable
 
